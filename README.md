@@ -22,3 +22,6 @@ This is a full-stack web application built with **React** for the frontend and *
 - **MySQL**: As the database for storing book information.
 - **Multer**: For handling file uploads (cover images).
 
+https://github.com/user-attachments/assets/a5e3ff40-716e-4067-8c9a-c533824b78e3
+
+
