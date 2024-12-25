@@ -1,26 +1,26 @@
-# full-stack-book-store
+# full- stack kitap mağazası
 
-This is a full-stack web application built with **React** for the frontend and **Node.js** with **Express** and **MySQL** for the backend. It allows users to manage a collection of books by adding, displaying, and deleting books, with each book having a title, description, price, and cover image.
+Bu, ön uç için **React** ve arka uç için **Node.js** ile **Express** ve **MySQL** kullanılarak oluşturulmuş tam yığınlı bir web uygulamasıdır. Kullanıcıların kitap ekleyerek, görüntüleyerek ve silerek bir kitap koleksiyonunu yönetmelerine olanak tanır; her kitabın bir başlığı, açıklaması, fiyatı ve kapak resmi vardır.
 
-## Features
+## Özellikler
 
-- **View Books**: Users can view all books in a responsive, grid layout. Each book displays its cover image, title, description, and price.
-- **Add New Books**: Users can add new books by providing a title, description, price, and cover image. The cover image is uploaded and stored with the book data.
-- **Delete Books**: Users can delete books from the list, and the UI updates dynamically.
-- **File Upload**: Book cover images are uploaded to the server and displayed alongside the book details.
+- **Kitapları Görüntüle**: Kullanıcılar tüm kitapları duyarlı, ızgara düzeninde görüntüleyebilir. Her kitap kendi kapak resmini, başlığını, açıklamasını ve fiyatını görüntüler.
+- **Yeni Kitaplar Ekle**: Kullanıcılar bir başlık, açıklama, fiyat ve kapak resmi sağlayarak yeni kitaplar ekleyebilir. Kapak resmi kitap verileriyle birlikte yüklenir ve saklanır.
+- **Kitapları Sil**: Kullanıcılar kitapları listeden silebilir ve kullanıcı arayüzü dinamik olarak güncellenir.
+- **Dosya Yükleme**: Kitap kapak resimleri sunucuya yüklenir ve kitap ayrıntılarının yanında görüntülenir.
 
-## Technologies Used
+## Kullanılan Teknolojiler
 
-### Frontend
-- **React**: For building the user interface.
-- **React Router**: For handling client-side routing.
-- **Axios**: For making HTTP requests to the backend.
+### Ön Uç
+- **React**: Kullanıcı arayüzünü oluşturmak için.
+- **React Router**: İstemci tarafı yönlendirmeyi yönetmek için.
+- **Axios**: Arka uca HTTP istekleri yapmak için.
 
-### Backend
-- **Node.js**: As the runtime environment.
-- **Express.js**: For handling server-side routing and API endpoints.
-- **MySQL**: As the database for storing book information.
-- **Multer**: For handling file uploads (cover images).
+### Arka Uç
+- **Node.js**: Çalışma zamanı ortamı olarak.
+- **Express.js**: Sunucu tarafı yönlendirmeyi ve API uç noktalarını yönetmek için.
+- **MySQL**: Kitap bilgilerini depolamak için veritabanı olarak.
+- **Multer**: Dosya yüklemelerini (kapak resimleri) yönetmek için.
 
 https://github.com/user-attachments/assets/a5e3ff40-716e-4067-8c9a-c533824b78e3
 
